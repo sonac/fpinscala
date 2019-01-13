@@ -324,4 +324,5 @@ object List { // `List` companion object. Contains functions for creating and wo
     case _ if startsWith(sup, sub) => true
     case Cons(h,t) => hasSubsequence(t, sub)
   }
+
 }
